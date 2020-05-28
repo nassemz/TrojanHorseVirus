@@ -1,0 +1,268 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 307, 86
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Building Tel-hai Server Release 0.1"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_ICON1,IDC_STATIC,11,17,20,20
+    LTEXT           "Building Tel-hai Server Release 0.1",IDC_STATIC,40,10,
+                    119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2006",IDC_STATIC,40,20,119,8
+    DEFPUSHBUTTON   "I Agree",IDOK,235,18,50,14,WS_GROUP
+    LTEXT           "By using this software you can build a server by following:",
+                    IDC_STATIC,5,45,193,10
+    LTEXT           "1) Give a port to connect over it",IDC_STATIC,5,55,205,
+                    10
+    LTEXT           "2) Give a Mail ,Mail_Server,Sender,Mail Prot to send the victim IP",
+                    IDC_STATIC,5,65,260,10
+    LTEXT           "The author can't be held responsible for any illegal action(s) arising from the use of this software.",
+                    IDC_STATIC,5,75,300,10
+    DEFPUSHBUTTON   "Exit",IDOK2,235,35,50,14,WS_GROUP
+END
+
+IDD_EDITSERVER_DIALOG DIALOGEX 0, 0, 288, 260
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Building Server Tel-Hai Copyright 2006 (Release 0.1)"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT1,50,71,117,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,26,20,40,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,50,55,117,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Create EXE",IDOK,175,75,50,14
+    PUSHBUTTON      "Exit",IDCANCEL,231,75,50,14
+    CONTROL         "Pack After Create",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,195,95,72,10
+    LTEXT           "Email",IDC_STATIC,9,59,18,8
+    CONTROL         130,IDC_STATIC,"Static",SS_BITMAP,174,10,107,58
+    LTEXT           "Port",IDC_STATIC,10,23,14,8
+    GROUPBOX        "Connection Port",IDC_STATIC,5,5,165,40
+    GROUPBOX        "Sending Ip Data",IDC_STATIC,5,45,165,70
+    EDITTEXT        IDC_STATUS,10,182,265,65,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_VSCROLL,WS_EX_CLIENTEDGE
+    GROUPBOX        "Status",IDC_STATIC,7,173,274,80
+    LTEXT           "Mail Server",IDC_STATIC,9,73,37,9
+    DEFPUSHBUTTON   "Try Mail",IDOK3,107,101,50,10
+    LTEXT           "Mail Port",IDC_STATIC,10,101,28,8
+    EDITTEXT        IDC_EDIT5,50,100,40,13,ES_AUTOHSCROLL
+    LTEXT           "Sender",IDC_STATIC,9,86,26,9
+    EDITTEXT        IDC_EDIT7,50,86,117,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,88,143,179,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,88,130,179,12,ES_AUTOHSCROLL
+    LTEXT           "Server File Name",IDC_STATIC,13,132,70,8
+    GROUPBOX        "Server Name",IDC_STATIC,7,116,266,58
+    LTEXT           "Service Name",IDC_STATIC,13,145,48,9
+    LTEXT           "Service Display Name",IDC_STATIC,13,159,71,9
+    EDITTEXT        IDC_EDIT9,88,156,179,12,ES_AUTOHSCROLL
+    LTEXT           "Connect to :",IDC_STATIC,75,21,41,10
+    CONTROL         "Local IP",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,117,16,
+                    47,8
+    CONTROL         "Exernal IP",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,117,
+                    28,50,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,0,3
+ PRODUCTVERSION 0,0,0,3
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "DSNX\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "DataSpyNetworkX\0"
+            VALUE "FileVersion", "0, 0, 0, 3\0"
+            VALUE "InternalName", "DSNX\0"
+            VALUE "LegalCopyright", "Copyright (C) 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "EditServer.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "DSNX Editor Application\0"
+            VALUE "ProductVersion", "0, 0, 0, 3\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_EDITSERVER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 281
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 253
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About DSNX"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\EditServer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\Logo copy.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "res\\Editserver.ico"
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\EditServer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

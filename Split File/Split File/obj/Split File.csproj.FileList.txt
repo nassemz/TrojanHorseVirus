@@ -1,0 +1,8 @@
+bin\Debug\Split File.exe
+bin\Debug\Split File.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Split_File.Form1.resources
+obj\Debug\Split_File.Properties.Resources.resources
+obj\Debug\Split File.csproj.GenerateResource.Cache
+obj\Debug\Split File.exe
+obj\Debug\Split File.pdb
